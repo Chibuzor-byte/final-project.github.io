@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSC | Project</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <img src="img/ham-menu.png" alt="" class="bar"  onclick="myFunction()"> 
+        
+        <div class="logo">
+            <ul class="logo__list">    
+                <li><img src="img/logo.png" alt="" class="logo__image"></li>
+                <li>Restaurant d'ifihan</li>
+            </ul>
+        </div>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li><a href="#" class="nav__list--1">About</a></li>
+                <li><a href="#" class="nav__list--1">Menu</a></li>
+                <li><a href="#" class="nav__list--1">Gallery</a></li>
+                <li><a href="#" class="nav__list--1">Book a Table</a></li>
+            </ul>
+        </nav>   
+    </header>
+
+    <div id="myLinks">
+        <a href="#">About</a>
+        <a href="#">Menu</a>
+        <a href="#">Gallery</a>
+        <a href="#">Book a Table</a>
+    </div>
+
+    <section class="section-1">
+        <div class="intro-btn">    
+            <h1 class="span">
+                <span>good food</span>
+                <span>and</span>
+                <span>vibes...</span>
+            </h1>
+            <a href="#" class="btn__gold">book a table</a>
+        </div>
+        <img src="img/spag.png" alt="" class="spag">
+    </section>
+    <section class="section-2">
+        <img src="img/who.png" alt="" class="who-photo">
+        <h1 class="section-2__h1">
+            <span class="span-header">who we are?</span>
+            <span class="span-paragraph">
+                Contrary to popular belief, Lorem Ipsum is not simply random text. 
+                It has roots in a piece of classical Latin literature from 45 BC,
+                 making it over 2000 years old. Richard McClintock, 
+                 a Latin professor at Hampden-Sydney College in Virginia,
+                  looked up one of the more obscure Latin words, consectetur, 
+                from a Lorem Ipsum passage, 
+                and going through the cites of the word in classical literature,
+            </span>   
+        </h1>
+    </section>
+    <section class="section-3">
+        <h3>Our Menu</h3>
+        <div class="menu">
+            <img src="img/image-1.png" alt="Appetizer" class="image "image-1>
+            <img src="img/image-2.png" alt="Dinner" class="image image-2">
+            <img src="img/image-3.png" alt="Dessert" class="image image-3">
+        </div>
+    </section>
+    <section class="section-4">
+        <img src="img/pot.png" alt="" class="pot">
+        <div class="empty">
+            <p class="empty__paragraph">You deserve foodgasms...</p> 
+            <div class="empty__form">    
+                <h3>Book a Table</h3>
+                <form action="" class="formy">
+                    <label for="name">Name</label><br>
+                    <input type="text" name="name"><br>
+                    <label for="email">Email Address</label><br>
+                    <input type="email" name="email"><br>
+                    <label for="table">Table for</label><br>
+                    <input type="number" name="table"><br>
+                    <label for="date">Date</label><br>
+                    <input type="date" name="date"><br>
+                    <a href="#" class="btn__book">book</a>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="section-5">
+        <p class="best">Best Rated on the block</p>
+        <div class="star">
+            <img src="img/star.png" alt="" class="star star--1">
+            <img src="img/star.png" alt="" class="star star--2">
+            <img src="img/star.png" alt="" class="star star--3">
+            <img src="img/star.png" alt="" class="star star--4">
+            <img src="img/star.png" alt="" class="star star--5">
+        </div>
+        <img src="img/dinner.png" alt="" class="dinner">
+    </section>
+    <footer>
+        <div class="footer">
+            <p><img src="img/logo.png" alt=""></p>
+            <p>Restaurant d'ifihan</p>
+            <p>080788 88 8888</p>
+        </div>
+    </footer> 
+
+
+    <script>
+        function myFunction() {
+            var x =
+            document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+
+        }
+    </script>
+</body>
+</html>
